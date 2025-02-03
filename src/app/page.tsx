@@ -6,8 +6,8 @@ export default function LandingPage() {
   const router = useRouter();
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
-  const [cursorX, setCursorX] = useState(0);
-  const [cursorY, setCursorY] = useState(0);
+  const [, setCursorX] = useState(0);
+  const [, setCursorY] = useState(0);
 
 
   useEffect(() => {
